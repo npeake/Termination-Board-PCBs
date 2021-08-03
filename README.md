@@ -10,3 +10,5 @@ Termination Board DCS v2 is an updated version of only the DCS board from the te
 Termination Board v4 includes updated designs to the termination boards to reorrient the Type-1 services landing pads by 45 degrees. This will ease strain on the attached cables and their solder joints compared to an abrupt 90 degree bend.
 
 19-x Cable Mapping directory contains schematics for the Type-1 service cable bundle wiring for the 19-x prototypes. These include prototypes of a Coupled Ring and an L0+2L1 Barrel. These differ from the final design in that the PP1 connectors used are banana jacks, SHV plugs, and DB25 connectors and the L0+2L1 PP0 is divided into 3 seperate PP0's for ease of prototyping and data breakout.
+
+SCIPP_Connectors in the main repository directory contains all connector footprints designed and used for this project. Some directories contain another copy of SCIPP_Connectors because they rely on earlier versions of the connectors for their designs. However, the main directory connector folder contains the most recently updated footprints along with 3D models.
