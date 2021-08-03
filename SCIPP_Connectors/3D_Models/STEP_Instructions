@@ -1,0 +1,40 @@
+This folder contains STEP file 3D models of Samtec connectors used on the termination boards. If the models aren't automatically grouped with the appropriate connectors for 3D display, then follow these steps to link the STEP files with the connector file.
+
+Open KiCad
+Open Footprint Editor
+Select SCIPP_Connector folder
+    If this folder doesn't appear, import it using the Add Library function under the File tab within the Footprint Editor appear
+Double click on the footprint to add a 3D model to (SLH/TLH 10/20 pin, or UMPS/UMPT all available)
+Under the Edit tab, select Footprint Properties editor 
+Select the 3D Settings tab at the top of the new window
+Click the folder icon midway down the page to import a new 3D model for the connector footprint
+Select a path from the dropdown menu closest to the point of download for the repository
+Select one of the STEP 3D models included within the 3D_Models folder of this repository corresponding to the selected footprint
+    For example, TLH footprint is the 10 pin option, using the TLH-010-0.50-G-D-A-K.stp file 
+Once the file is imported, it may require additional adjustments using the X/Y/Z offsets (usually in .5 mm increments)
+Click OK at the bottom of the Footprint Properties window
+Under the View tab, select the 3D Viewer to create a popup window for the 3D model
+Rotate and inspect the connector to make sure the import was successful and properly aligned
+Save changes using the Save buttion in the top left corner of the original Footprint Editor window
+Update existing footprints in the PCB editor with this updated footprint to propagate changes made here to full PCB 3D models
+
+STEP files map to footprints in the following way.
+
+TLH-010-0.50-G-D-A.stp   -->   TLH(mp)
+TLH-020-0.50-G-D-A.stp   -->   TLH_20_Pin
+HV TLH-010-0.50-G-D-A.stp  -->   19-1_TLH_HV
+
+SLH-010-1.50-G-D-A.stp     -->   SLH(mp)
+SLH-020-1.50-G-D-A.stp     -->   SLH_20_Pin
+HV SLH-010-1.50-G-D-A.stp  -->   19-1_SLH_HV
+
+UMPS-05-03.5-G-VT-SM-WT.stp -->   UMPS_5_Pin
+UMPT-05-01.5-G-VT-SM-WT.stp   -->   UMPT_5_Pin
+
+The following files are included as alternatives which include polyamide pick and place dots (K) which will be used during PCB population.
+
+TLH-010-0.50-G-D-A-K.stp
+TLH-020-0.50-G-D-A-K.stp 
+UMPS-05-03.5-G-VT-SM-WT-K.stp
+
+

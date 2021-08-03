@@ -1,0 +1,1 @@
+This folder contains final design files for termination boards for the Type-1 services. Type 1 Termination Board v4 Design corresponds to the design process, last version v3 boards for reference, and the multiple designs created for v4. Type 1 Termination Board v4 Final is the final design chosen for termination boards and is complete. 

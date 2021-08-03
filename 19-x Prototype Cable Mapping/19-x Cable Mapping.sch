@@ -1,0 +1,2214 @@
+EESchema Schematic File Version 4
+LIBS:19-x Cable Mapping-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "19-x Cable Mapping"
+Date "3-15-21"
+Rev "v2"
+Comp "Santa Cruz Institute for Particle Physics"
+Comment1 "Designed by Noah Peake"
+Comment2 "Cable mapping for the 19-x prototype Type-1 service bundles"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 600C5A64
+P 1999 4325
+F 0 "J2" H 2224 4546 50  0000 C CNN
+F 1 "UMPS-Quads" H 2318 4440 50  0000 C CNN
+F 2 "" H 1999 4325 50  0001 C CNN
+F 3 "~" H 1999 4325 50  0001 C CNN
+	1    1999 4325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 600C8590
+P 2025 5000
+F 0 "J3" H 2255 5218 50  0000 C CNN
+F 1 "UMPS-Trip" H 2285 5130 50  0000 C CNN
+F 2 "" H 2025 5000 50  0001 C CNN
+F 3 "~" H 2025 5000 50  0001 C CNN
+	1    2025 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 600CD601
+P 1990 2425
+F 0 "J1" H 2040 3542 50  0000 C CNN
+F 1 "DCS TLH" H 2040 3451 50  0000 C CNN
+F 2 "" H 1990 2425 50  0001 C CNN
+F 3 "~" H 1990 2425 50  0001 C CNN
+	1    1990 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600D317E
+P 1790 1525
+F 0 "#PWR?" H 1790 1275 50  0001 C CNN
+F 1 "GND" V 1795 1352 50  0000 C CNN
+F 2 "" H 1790 1525 50  0001 C CNN
+F 3 "" H 1790 1525 50  0001 C CNN
+	1    1790 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600D3C7F
+P 2290 1525
+F 0 "#PWR?" H 2290 1275 50  0001 C CNN
+F 1 "GND" V 2295 1352 50  0000 C CNN
+F 2 "" H 2290 1525 50  0001 C CNN
+F 3 "" H 2290 1525 50  0001 C CNN
+	1    2290 1525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600D3F58
+P 2300 3529
+F 0 "#PWR?" H 2300 3279 50  0001 C CNN
+F 1 "GND" H 2305 3356 50  0000 C CNN
+F 2 "" H 2300 3529 50  0001 C CNN
+F 3 "" H 2300 3529 50  0001 C CNN
+	1    2300 3529
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600D3E77
+P 1765 3523
+F 0 "#PWR?" H 1765 3273 50  0001 C CNN
+F 1 "GND" H 1770 3350 50  0000 C CNN
+F 2 "" H 1765 3523 50  0001 C CNN
+F 3 "" H 1765 3523 50  0001 C CNN
+	1    1765 3523
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1790 3520 1765 3520
+Wire Wire Line
+	1790 3025 1790 3125
+Connection ~ 1790 3125
+Wire Wire Line
+	1790 3125 1790 3225
+Connection ~ 1790 3225
+Wire Wire Line
+	1790 3225 1790 3325
+Connection ~ 1790 3325
+Wire Wire Line
+	1790 3325 1790 3425
+Connection ~ 1790 3425
+Wire Wire Line
+	1790 3425 1790 3520
+Wire Wire Line
+	1765 3520 1765 3523
+Connection ~ 1765 3523
+Wire Wire Line
+	1765 3523 1765 3525
+Wire Wire Line
+	2290 3025 2290 3125
+Connection ~ 2290 3125
+Wire Wire Line
+	2290 3125 2290 3225
+Connection ~ 2290 3225
+Wire Wire Line
+	2290 3225 2290 3325
+Connection ~ 2290 3325
+Wire Wire Line
+	2290 3325 2290 3425
+Connection ~ 2290 3425
+Wire Wire Line
+	2290 3425 2290 3525
+Wire Wire Line
+	2300 3525 2300 3529
+Wire Wire Line
+	2290 3525 2300 3525
+Connection ~ 2300 3529
+Wire Wire Line
+	2300 3529 2300 3530
+Wire Wire Line
+	3035 1380 3035 1215
+Wire Wire Line
+	3035 1215 1445 1215
+Wire Wire Line
+	1445 1215 1445 1725
+Wire Wire Line
+	1445 1725 1790 1725
+Connection ~ 1790 1725
+Wire Wire Line
+	1790 1725 1795 1725
+Wire Wire Line
+	1795 1625 1790 1625
+Wire Wire Line
+	1690 1625 1690 1685
+Wire Wire Line
+	1690 1685 1505 1685
+Wire Wire Line
+	1505 1685 1505 1255
+Wire Wire Line
+	1505 1255 2925 1255
+Wire Wire Line
+	2925 1255 2925 1480
+Connection ~ 1790 1625
+Wire Wire Line
+	1790 1625 1690 1625
+Wire Wire Line
+	2285 1625 2290 1625
+Wire Wire Line
+	2920 1625 2920 1580
+Connection ~ 2290 1625
+Wire Wire Line
+	2290 1625 2920 1625
+Text Label 1690 1625 0    30   ~ 0
+Vc1+
+Text Label 2305 1625 0    30   ~ 0
+Vc1-
+Text Label 1655 1825 0    30   ~ 0
+Vc2+
+Text Label 2320 1825 0    30   ~ 0
+Vc2-
+$Comp
+L power:GND #PWR?
+U 1 1 6010EB4D
+P 1790 1925
+F 0 "#PWR?" H 1790 1675 50  0001 C CNN
+F 1 "GND" V 1795 1752 50  0000 C CNN
+F 2 "" H 1790 1925 50  0001 C CNN
+F 3 "" H 1790 1925 50  0001 C CNN
+	1    1790 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60112604
+P 2290 1925
+F 0 "#PWR?" H 2290 1675 50  0001 C CNN
+F 1 "GND" V 2295 1752 50  0000 C CNN
+F 2 "" H 2290 1925 50  0001 C CNN
+F 3 "" H 2290 1925 50  0001 C CNN
+	1    2290 1925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1790 2025 1180 2025
+$Comp
+L power:GND #PWR?
+U 1 1 6011D882
+P 1790 2125
+F 0 "#PWR?" H 1790 1875 50  0001 C CNN
+F 1 "GND" V 1795 1952 50  0000 C CNN
+F 2 "" H 1790 2125 50  0001 C CNN
+F 3 "" H 1790 2125 50  0001 C CNN
+	1    1790 2125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011FE18
+P 2290 2125
+F 0 "#PWR?" H 2290 1875 50  0001 C CNN
+F 1 "GND" V 2295 1952 50  0000 C CNN
+F 2 "" H 2290 2125 50  0001 C CNN
+F 3 "" H 2290 2125 50  0001 C CNN
+	1    2290 2125
+	0    -1   -1   0   
+$EndComp
+Text Label 1670 2025 0    30   ~ 0
+Cp1+
+Text Label 1655 2225 0    30   ~ 0
+Cp2+
+Text Label 2330 2225 0    30   ~ 0
+Cp2-
+Text Label 2330 2025 0    30   ~ 0
+Cp1-
+Wire Wire Line
+	1795 2325 1790 2325
+Connection ~ 1790 2325
+Wire Wire Line
+	1790 2325 990  2325
+Wire Wire Line
+	1795 2425 1790 2425
+Wire Wire Line
+	885  2425 885  805 
+Connection ~ 1790 2425
+Wire Wire Line
+	1790 2425 885  2425
+Text Label 1655 2325 0    30   ~ 0
+LP2
+Text Label 1555 2425 0    30   ~ 0
+LP2rtn(G)
+Text Label 2335 2325 0    30   ~ 0
+LP1
+Text Label 2335 2425 0    30   ~ 0
+LP1rtn(G)
+Text Label 1620 1725 0    30   ~ 0
+Vc1shld
+Text Label 2300 1725 0    30   ~ 0
+Vc2shld
+Wire Wire Line
+	885  805  3515 805 
+Wire Wire Line
+	1795 2525 1790 2525
+Wire Wire Line
+	825  2525 825  715 
+Wire Wire Line
+	825  715  3595 715 
+Connection ~ 1790 2525
+Wire Wire Line
+	1790 2525 825  2525
+Wire Wire Line
+	1795 2725 1790 2725
+Wire Wire Line
+	725  2725 725  645 
+Wire Wire Line
+	725  645  3695 645 
+Connection ~ 1790 2725
+Wire Wire Line
+	1790 2725 725  2725
+Wire Wire Line
+	2285 2725 2290 2725
+$Comp
+L power:GND #PWR?
+U 1 1 6017D558
+P 1790 2625
+F 0 "#PWR?" H 1790 2375 50  0001 C CNN
+F 1 "GND" V 1795 2452 50  0000 C CNN
+F 2 "" H 1790 2625 50  0001 C CNN
+F 3 "" H 1790 2625 50  0001 C CNN
+	1    1790 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601882BB
+P 1790 2825
+F 0 "#PWR?" H 1790 2575 50  0001 C CNN
+F 1 "GND" V 1795 2652 50  0000 C CNN
+F 2 "" H 1790 2825 50  0001 C CNN
+F 3 "" H 1790 2825 50  0001 C CNN
+	1    1790 2825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60192F74
+P 2290 2625
+F 0 "#PWR?" H 2290 2375 50  0001 C CNN
+F 1 "GND" V 2295 2452 50  0000 C CNN
+F 2 "" H 2290 2625 50  0001 C CNN
+F 3 "" H 2290 2625 50  0001 C CNN
+	1    2290 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6019888B
+P 2290 2825
+F 0 "#PWR?" H 2290 2575 50  0001 C CNN
+F 1 "GND" V 2295 2652 50  0000 C CNN
+F 2 "" H 2290 2825 50  0001 C CNN
+F 3 "" H 2290 2825 50  0001 C CNN
+	1    2290 2825
+	0    -1   -1   0   
+$EndComp
+Text Label 1660 2525 0    30   ~ 0
+Int1+
+Text Label 1650 2725 0    30   ~ 0
+Int2+
+Text Label 1640 2925 0    30   ~ 0
+Int3+
+Text Label 2355 2525 0    30   ~ 0
+Int1-
+Text Label 2345 2725 0    30   ~ 0
+Int2-
+Text Label 2355 2925 0    30   ~ 0
+Int3-
+Text Label 4355 1380 0    30   ~ 0
+Vc1shld
+Text Label 4390 1480 0    30   ~ 0
+Vc1+
+Text Label 4395 1580 0    30   ~ 0
+Vc1-
+Text Label 4390 1680 0    30   ~ 0
+Cp1+
+Text Label 4395 1780 0    30   ~ 0
+Cp1-
+Text Label 4385 1880 0    30   ~ 0
+LP1
+Text Label 4310 1980 0    30   ~ 0
+LP1rtn(G)
+Text Label 4380 2080 0    30   ~ 0
+LP2
+Text Label 4300 2180 0    30   ~ 0
+LP2rtn(G)
+Text Label 4385 2280 0    30   ~ 0
+Int1+
+Text Label 4390 2380 0    30   ~ 0
+Int1-
+Text Label 4390 2480 0    30   ~ 0
+Int2+
+Text Label 4385 2580 0    30   ~ 0
+Int2-
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 602B197C
+P 4735 4270
+F 0 "J6" H 4815 4262 50  0000 L CNN
+F 1 "Banana Plugs" H 4815 4171 50  0000 L CNN
+F 2 "" H 4735 4270 50  0001 C CNN
+F 3 "~" H 4735 4270 50  0001 C CNN
+	1    4735 4270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4225 2450 4125
+Wire Wire Line
+	4135 4125 4135 4270
+Wire Wire Line
+	4135 4270 4535 4270
+Connection ~ 4535 4270
+Wire Wire Line
+	4535 4270 4540 4270
+Connection ~ 2450 4125
+Wire Wire Line
+	2450 4125 4135 4125
+Wire Wire Line
+	2195 4125 2199 4125
+Wire Wire Line
+	2195 4225 2199 4225
+Wire Wire Line
+	2195 4525 2199 4525
+Wire Wire Line
+	4135 4525 4135 4370
+Wire Wire Line
+	4135 4370 4535 4370
+Connection ~ 4535 4370
+Wire Wire Line
+	4535 4370 4540 4370
+Wire Wire Line
+	2195 4425 2199 4425
+Wire Wire Line
+	2455 4425 2455 4525
+Connection ~ 2455 4525
+Wire Wire Line
+	2455 4525 4135 4525
+$Comp
+L power:GND #PWR?
+U 1 1 603082A1
+P 2199 4325
+F 0 "#PWR?" H 2199 4075 50  0001 C CNN
+F 1 "GND" H 2204 4152 50  0000 C CNN
+F 2 "" H 2199 4325 50  0001 C CNN
+F 3 "" H 2199 4325 50  0001 C CNN
+	1    2199 4325
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2199 4125
+Wire Wire Line
+	2199 4125 2450 4125
+Connection ~ 2199 4225
+Wire Wire Line
+	2199 4225 2450 4225
+Connection ~ 2199 4425
+Wire Wire Line
+	2199 4425 2455 4425
+Connection ~ 2199 4525
+Wire Wire Line
+	2199 4525 2455 4525
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 6031A67C
+P 4760 4945
+F 0 "J7" H 4840 4937 50  0000 L CNN
+F 1 "Banana Plugs" H 4840 4846 50  0000 L CNN
+F 2 "" H 4760 4945 50  0001 C CNN
+F 3 "~" H 4760 4945 50  0001 C CNN
+	1    4760 4945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 4900 2475 4800
+Wire Wire Line
+	4160 4800 4160 4945
+Wire Wire Line
+	4160 4945 4560 4945
+Connection ~ 4560 4945
+Wire Wire Line
+	4560 4945 4565 4945
+Connection ~ 2475 4800
+Wire Wire Line
+	2475 4800 4160 4800
+Wire Wire Line
+	4160 5200 4160 5045
+Wire Wire Line
+	4160 5045 4560 5045
+Connection ~ 4560 5045
+Wire Wire Line
+	4560 5045 4565 5045
+Wire Wire Line
+	2480 5100 2480 5200
+Connection ~ 2480 5200
+Wire Wire Line
+	2480 5200 4160 5200
+$Comp
+L power:GND #PWR?
+U 1 1 6031A690
+P 2225 5000
+F 0 "#PWR?" H 2225 4750 50  0001 C CNN
+F 1 "GND" H 2230 4827 50  0000 C CNN
+F 2 "" H 2225 5000 50  0001 C CNN
+F 3 "" H 2225 5000 50  0001 C CNN
+	1    2225 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2224 4800 2225 4800
+Wire Wire Line
+	2224 4900 2225 4900
+Wire Wire Line
+	2224 5100 2225 5100
+Wire Wire Line
+	2224 5200 2225 5200
+Connection ~ 2225 4800
+Wire Wire Line
+	2225 4800 2475 4800
+Connection ~ 2225 4900
+Wire Wire Line
+	2225 4900 2475 4900
+Connection ~ 2225 5100
+Wire Wire Line
+	2225 5100 2480 5100
+Connection ~ 2225 5200
+Wire Wire Line
+	2225 5200 2480 5200
+Wire Wire Line
+	990  915  3430 915 
+Wire Wire Line
+	990  915  990  2325
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 6038DEFF
+P 4675 6020
+F 0 "J8" H 4755 6012 50  0000 L CNN
+F 1 "SHV Trip1" H 4755 5921 50  0000 L CNN
+F 2 "" H 4675 6020 50  0001 C CNN
+F 3 "~" H 4675 6020 50  0001 C CNN
+	1    4675 6020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 603973C9
+P 4675 6360
+F 0 "J9" H 4755 6352 50  0000 L CNN
+F 1 "SHV Trip2" H 4755 6261 50  0000 L CNN
+F 2 "" H 4675 6360 50  0001 C CNN
+F 3 "~" H 4675 6360 50  0001 C CNN
+	1    4675 6360
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 603A0843
+P 4675 6725
+F 0 "J10" H 4755 6717 50  0000 L CNN
+F 1 "SHV Trip3" H 4755 6626 50  0000 L CNN
+F 2 "" H 4675 6725 50  0001 C CNN
+F 3 "~" H 4675 6725 50  0001 C CNN
+	1    4675 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 603A9D0D
+P 4675 7045
+F 0 "J11" H 4755 7037 50  0000 L CNN
+F 1 "SHV Quad1" H 4755 6946 50  0000 L CNN
+F 2 "" H 4675 7045 50  0001 C CNN
+F 3 "~" H 4675 7045 50  0001 C CNN
+	1    4675 7045
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 603B30B5
+P 4675 7375
+F 0 "J12" H 4755 7367 50  0000 L CNN
+F 1 "SHV Quad2" H 4755 7276 50  0000 L CNN
+F 2 "" H 4675 7375 50  0001 C CNN
+F 3 "~" H 4675 7375 50  0001 C CNN
+	1    4675 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1495 6220 1495 5880
+Wire Wire Line
+	1495 5880 3290 5880
+Wire Wire Line
+	3290 5880 3290 6020
+Wire Wire Line
+	1280 5695 3415 5695
+Wire Wire Line
+	3415 5695 3415 6120
+Wire Wire Line
+	1390 6320 1390 5790
+Wire Wire Line
+	1390 5790 3155 5790
+Wire Wire Line
+	3155 5790 3155 6725
+Wire Wire Line
+	1160 5570 3030 5570
+Wire Wire Line
+	3030 5570 3030 6825
+Wire Wire Line
+	3030 6825 4475 6825
+Wire Wire Line
+	2115 6220 3395 6220
+Wire Wire Line
+	3395 6220 3395 6360
+Wire Wire Line
+	3395 6360 4475 6360
+Wire Wire Line
+	1615 7020 1290 7020
+Wire Wire Line
+	3075 7045 4475 7045
+Wire Wire Line
+	2115 7020 2855 7020
+Wire Wire Line
+	2855 7020 2855 7375
+Wire Wire Line
+	2855 7375 4475 7375
+Wire Wire Line
+	1615 6720 1175 6720
+Wire Wire Line
+	3170 7145 4475 7145
+Wire Wire Line
+	2115 6720 2775 6720
+Wire Wire Line
+	2775 6720 2775 7475
+Wire Wire Line
+	2775 7475 4475 7475
+Wire Wire Line
+	1290 7020 1290 7560
+Wire Wire Line
+	1290 7560 3075 7560
+Wire Wire Line
+	3075 7045 3075 7560
+Wire Wire Line
+	1175 6720 1175 7700
+Wire Wire Line
+	1175 7700 3170 7700
+Wire Wire Line
+	3170 7145 3170 7700
+Wire Wire Line
+	2115 6520 3410 6520
+Wire Wire Line
+	3410 6520 3410 6460
+Wire Wire Line
+	3410 6460 4475 6460
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J4
+U 1 1 6036AFA7
+P 1815 6620
+F 0 "J4" H 1865 7237 50  0000 C CNN
+F 1 "HV TLH" H 1865 7146 50  0000 C CNN
+F 2 "" H 1815 6620 50  0001 C CNN
+F 3 "~" H 1815 6620 50  0001 C CNN
+	1    1815 6620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1615 6520 1280 6520
+Wire Wire Line
+	1280 6520 1280 5695
+Wire Wire Line
+	1615 6620 1160 6620
+Wire Wire Line
+	1160 6620 1160 5570
+Wire Wire Line
+	1390 6320 1615 6320
+Wire Wire Line
+	1495 6220 1615 6220
+Wire Wire Line
+	3290 6020 4475 6020
+Wire Wire Line
+	3415 6120 4475 6120
+Wire Wire Line
+	3155 6725 4475 6725
+Text Label 1530 6220 0    30   ~ 0
+Trip1
+Text Label 1530 6320 0    30   ~ 0
+Trip3
+Text Label 1450 6520 0    30   ~ 0
+Trip1rtn
+Text Label 1455 6620 0    30   ~ 0
+Trip3rtn
+Text Label 4350 6020 0    30   ~ 0
+Trip1
+Text Label 4350 6360 0    30   ~ 0
+Trip2
+Text Label 4350 6725 0    30   ~ 0
+Trip3
+Text Label 4315 7045 0    30   ~ 0
+Quad1
+Text Label 4320 7375 0    30   ~ 0
+Quad2
+Text Label 4280 7475 0    30   ~ 0
+Quad2rtn
+Text Label 4290 7145 0    30   ~ 0
+Quad1rtn
+Text Label 4310 6825 0    30   ~ 0
+Trip3rtn
+Text Label 4315 6460 0    30   ~ 0
+Trip2rtn
+Text Label 4310 6120 0    30   ~ 0
+Trip1rtn
+Text Label 2510 4525 0    30   ~ 0
+LVrtn
+Text Label 2505 4125 0    30   ~ 0
+LV
+Text Label 4340 4270 0    30   ~ 0
+LV
+Text Label 4305 4370 0    30   ~ 0
+LVrtn
+Text Label 2520 4800 0    30   ~ 0
+LV
+Text Label 2515 5200 0    30   ~ 0
+LVrtn
+Text Label 4445 4945 0    30   ~ 0
+LV
+Text Label 4430 5045 0    30   ~ 0
+LVrtn
+Text Notes 45   -170 0    300  ~ 0
+Coupled Ring Bundle
+Text Notes 7875 -215 0    300  ~ 0
+Barrel Bundle
+$Comp
+L Connector_Generic:Conn_01x05 J14
+U 1 1 608A97E8
+P 7804 4105
+F 0 "J14" H 8083 4320 50  0000 C CNN
+F 1 "UMPS-Trip" H 8088 4220 50  0000 C CNN
+F 2 "" H 7804 4105 50  0001 C CNN
+F 3 "~" H 7804 4105 50  0001 C CNN
+	1    7804 4105
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J13
+U 1 1 608A97F4
+P 8055 2395
+F 0 "J13" H 8105 3512 50  0000 C CNN
+F 1 "DCS TLH" H 8105 3421 50  0000 C CNN
+F 2 "" H 8055 2395 50  0001 C CNN
+F 3 "~" H 8055 2395 50  0001 C CNN
+	1    8055 2395
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A97FA
+P 7855 1495
+F 0 "#PWR?" H 7855 1245 50  0001 C CNN
+F 1 "GND" V 7860 1322 50  0000 C CNN
+F 2 "" H 7855 1495 50  0001 C CNN
+F 3 "" H 7855 1495 50  0001 C CNN
+	1    7855 1495
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A9800
+P 8355 1495
+F 0 "#PWR?" H 8355 1245 50  0001 C CNN
+F 1 "GND" V 8360 1322 50  0000 C CNN
+F 2 "" H 8355 1495 50  0001 C CNN
+F 3 "" H 8355 1495 50  0001 C CNN
+	1    8355 1495
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A9806
+P 8365 3499
+F 0 "#PWR?" H 8365 3249 50  0001 C CNN
+F 1 "GND" H 8370 3326 50  0000 C CNN
+F 2 "" H 8365 3499 50  0001 C CNN
+F 3 "" H 8365 3499 50  0001 C CNN
+	1    8365 3499
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A980C
+P 7830 3493
+F 0 "#PWR?" H 7830 3243 50  0001 C CNN
+F 1 "GND" H 7835 3320 50  0000 C CNN
+F 2 "" H 7830 3493 50  0001 C CNN
+F 3 "" H 7830 3493 50  0001 C CNN
+	1    7830 3493
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7855 3490 7830 3490
+Wire Wire Line
+	7855 2995 7855 3095
+Connection ~ 7855 3095
+Wire Wire Line
+	7855 3095 7855 3195
+Connection ~ 7855 3195
+Wire Wire Line
+	7855 3195 7855 3295
+Connection ~ 7855 3295
+Wire Wire Line
+	7855 3295 7855 3395
+Connection ~ 7855 3395
+Wire Wire Line
+	7855 3395 7855 3490
+Wire Wire Line
+	7830 3490 7830 3493
+Connection ~ 7830 3493
+Wire Wire Line
+	7830 3493 7830 3495
+Wire Wire Line
+	8355 2995 8355 3095
+Connection ~ 8355 3095
+Wire Wire Line
+	8355 3095 8355 3195
+Connection ~ 8355 3195
+Wire Wire Line
+	8355 3195 8355 3295
+Connection ~ 8355 3295
+Wire Wire Line
+	8355 3295 8355 3395
+Connection ~ 8355 3395
+Wire Wire Line
+	8355 3395 8355 3495
+Wire Wire Line
+	8365 3495 8365 3499
+Wire Wire Line
+	8355 3495 8365 3495
+Connection ~ 8365 3499
+Wire Wire Line
+	8365 3499 8365 3500
+Wire Wire Line
+	9100 1350 9100 1185
+Wire Wire Line
+	9100 1185 7510 1185
+Wire Wire Line
+	7510 1185 7510 1695
+Wire Wire Line
+	7510 1695 7855 1695
+Connection ~ 7855 1695
+Wire Wire Line
+	7855 1695 7860 1695
+Wire Wire Line
+	7860 1595 7855 1595
+Wire Wire Line
+	7755 1595 7755 1655
+Wire Wire Line
+	7755 1655 7570 1655
+Wire Wire Line
+	7570 1655 7570 1225
+Wire Wire Line
+	7570 1225 8990 1225
+Wire Wire Line
+	8990 1225 8990 1450
+Connection ~ 7855 1595
+Wire Wire Line
+	7855 1595 7755 1595
+Wire Wire Line
+	8350 1595 8355 1595
+Wire Wire Line
+	8985 1595 8985 1550
+Connection ~ 8355 1595
+Wire Wire Line
+	8355 1595 8985 1595
+Wire Wire Line
+	7860 1795 7855 1795
+Text Label 7755 1595 0    30   ~ 0
+Vc1+
+Text Label 8370 1595 0    30   ~ 0
+Vc1-
+Text Label 7720 1795 0    30   ~ 0
+Vc2+
+Text Label 8385 1795 0    30   ~ 0
+Vc2-
+$Comp
+L power:GND #PWR?
+U 1 1 608A9854
+P 7855 1895
+F 0 "#PWR?" H 7855 1645 50  0001 C CNN
+F 1 "GND" V 7860 1722 50  0000 C CNN
+F 2 "" H 7855 1895 50  0001 C CNN
+F 3 "" H 7855 1895 50  0001 C CNN
+	1    7855 1895
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A985A
+P 8355 1895
+F 0 "#PWR?" H 8355 1645 50  0001 C CNN
+F 1 "GND" V 8360 1722 50  0000 C CNN
+F 2 "" H 8355 1895 50  0001 C CNN
+F 3 "" H 8355 1895 50  0001 C CNN
+	1    8355 1895
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7855 1995 7245 1995
+Wire Wire Line
+	7245 1995 7245 1050
+Wire Wire Line
+	7245 1050 9315 1050
+Wire Wire Line
+	8355 1995 9230 1995
+$Comp
+L power:GND #PWR?
+U 1 1 608A986C
+P 7855 2095
+F 0 "#PWR?" H 7855 1845 50  0001 C CNN
+F 1 "GND" V 7860 1922 50  0000 C CNN
+F 2 "" H 7855 2095 50  0001 C CNN
+F 3 "" H 7855 2095 50  0001 C CNN
+	1    7855 2095
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A9872
+P 8355 2095
+F 0 "#PWR?" H 8355 1845 50  0001 C CNN
+F 1 "GND" V 8360 1922 50  0000 C CNN
+F 2 "" H 8355 2095 50  0001 C CNN
+F 3 "" H 8355 2095 50  0001 C CNN
+	1    8355 2095
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7860 2195 7855 2195
+Wire Wire Line
+	8350 2195 8355 2195
+Text Label 7735 1995 0    30   ~ 0
+Cp1+
+Text Label 7720 2195 0    30   ~ 0
+Cp2+
+Text Label 8395 2195 0    30   ~ 0
+Cp2-
+Text Label 8395 1995 0    30   ~ 0
+Cp1-
+Wire Wire Line
+	8350 2295 8355 2295
+Connection ~ 8355 2295
+Wire Wire Line
+	8350 2395 8355 2395
+Connection ~ 8355 2395
+Wire Wire Line
+	7860 2295 7855 2295
+Wire Wire Line
+	7860 2395 7855 2395
+Text Label 7720 2295 0    30   ~ 0
+LP2
+Text Label 7620 2395 0    30   ~ 0
+LP2rtn(G)
+Text Label 8400 2295 0    30   ~ 0
+LP1
+Text Label 8400 2395 0    30   ~ 0
+LP1rtn(G)
+Text Label 7685 1695 0    30   ~ 0
+Vc1shld
+Text Label 8365 1695 0    30   ~ 0
+Vc2shld
+Wire Wire Line
+	7860 2495 7855 2495
+Connection ~ 7855 2495
+Wire Wire Line
+	7855 2495 6890 2495
+Wire Wire Line
+	8350 2495 8355 2495
+Connection ~ 8355 2495
+Wire Wire Line
+	7860 2695 7855 2695
+Wire Wire Line
+	10612 2950 10615 2950
+Wire Wire Line
+	8350 2695 8355 2695
+Wire Wire Line
+	10612 3050 10615 3050
+Wire Wire Line
+	7860 2895 7855 2895
+Wire Wire Line
+	10612 3150 10615 3150
+Wire Wire Line
+	8350 2895 8355 2895
+Wire Wire Line
+	10612 3250 10615 3250
+$Comp
+L power:GND #PWR?
+U 1 1 608A98DF
+P 7855 2595
+F 0 "#PWR?" H 7855 2345 50  0001 C CNN
+F 1 "GND" V 7860 2422 50  0000 C CNN
+F 2 "" H 7855 2595 50  0001 C CNN
+F 3 "" H 7855 2595 50  0001 C CNN
+	1    7855 2595
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A98E5
+P 7855 2795
+F 0 "#PWR?" H 7855 2545 50  0001 C CNN
+F 1 "GND" V 7860 2622 50  0000 C CNN
+F 2 "" H 7855 2795 50  0001 C CNN
+F 3 "" H 7855 2795 50  0001 C CNN
+	1    7855 2795
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A98EB
+P 8355 2595
+F 0 "#PWR?" H 8355 2345 50  0001 C CNN
+F 1 "GND" V 8360 2422 50  0000 C CNN
+F 2 "" H 8355 2595 50  0001 C CNN
+F 3 "" H 8355 2595 50  0001 C CNN
+	1    8355 2595
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608A98F1
+P 8355 2795
+F 0 "#PWR?" H 8355 2545 50  0001 C CNN
+F 1 "GND" V 8360 2622 50  0000 C CNN
+F 2 "" H 8355 2795 50  0001 C CNN
+F 3 "" H 8355 2795 50  0001 C CNN
+	1    8355 2795
+	0    -1   -1   0   
+$EndComp
+Text Label 7725 2495 0    30   ~ 0
+Int1+
+Text Label 8420 2495 0    30   ~ 0
+Int1-
+Text Label 8410 2695 0    30   ~ 0
+Int2-
+Wire Wire Line
+	8350 1795 8355 1795
+Text Label 10420 1350 0    30   ~ 0
+Vc1shld
+Text Label 10455 1450 0    30   ~ 0
+Vc1+
+Text Label 10460 1550 0    30   ~ 0
+Vc1-
+Text Label 10440 1650 0    30   ~ 0
+Cp1+
+Text Label 10445 1750 0    30   ~ 0
+Cp1-
+Text Label 10460 1850 0    30   ~ 0
+LP1
+Text Label 10385 1950 0    30   ~ 0
+LP1rtn(G)
+Text Label 10460 2050 0    30   ~ 0
+Int1+
+Text Label 10465 2150 0    30   ~ 0
+Int1-
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 608A991E
+P 10540 4050
+F 0 "J17" H 10620 4042 50  0000 L CNN
+F 1 "Banana Plugs" H 10620 3951 50  0000 L CNN
+F 2 "" H 10540 4050 50  0001 C CNN
+F 3 "~" H 10540 4050 50  0001 C CNN
+	1    10540 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8255 4005 8255 3905
+Wire Wire Line
+	9940 3905 9940 4050
+Wire Wire Line
+	9940 4050 10340 4050
+Connection ~ 10340 4050
+Wire Wire Line
+	10340 4050 10345 4050
+Connection ~ 8255 3905
+Wire Wire Line
+	8255 3905 9940 3905
+Wire Wire Line
+	8000 3905 8004 3905
+Wire Wire Line
+	8000 4005 8004 4005
+Wire Wire Line
+	8000 4305 8004 4305
+Wire Wire Line
+	9940 4305 9940 4150
+Wire Wire Line
+	9940 4150 10340 4150
+Connection ~ 10340 4150
+Wire Wire Line
+	10340 4150 10345 4150
+Wire Wire Line
+	8000 4205 8004 4205
+Wire Wire Line
+	8260 4205 8260 4305
+Connection ~ 8260 4305
+Wire Wire Line
+	8260 4305 9940 4305
+$Comp
+L power:GND #PWR?
+U 1 1 608A9936
+P 8004 4105
+F 0 "#PWR?" H 8004 3855 50  0001 C CNN
+F 1 "GND" H 8009 3932 50  0000 C CNN
+F 2 "" H 8004 4105 50  0001 C CNN
+F 3 "" H 8004 4105 50  0001 C CNN
+	1    8004 4105
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8004 3905
+Wire Wire Line
+	8004 3905 8255 3905
+Connection ~ 8004 4005
+Wire Wire Line
+	8004 4005 8255 4005
+Connection ~ 8004 4205
+Wire Wire Line
+	8004 4205 8260 4205
+Connection ~ 8004 4305
+Wire Wire Line
+	8004 4305 8260 4305
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 608A996D
+P 10740 4920
+F 0 "J18" H 10820 4912 50  0000 L CNN
+F 1 "SHV Trip1" H 10820 4821 50  0000 L CNN
+F 2 "" H 10740 4920 50  0001 C CNN
+F 3 "~" H 10740 4920 50  0001 C CNN
+	1    10740 4920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 608A9973
+P 10740 5260
+F 0 "J19" H 10820 5252 50  0000 L CNN
+F 1 "SHV Trip2" H 10820 5161 50  0000 L CNN
+F 2 "" H 10740 5260 50  0001 C CNN
+F 3 "~" H 10740 5260 50  0001 C CNN
+	1    10740 5260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 608A9979
+P 10740 5625
+F 0 "J20" H 10820 5617 50  0000 L CNN
+F 1 "SHV Trip3" H 10820 5526 50  0000 L CNN
+F 2 "" H 10740 5625 50  0001 C CNN
+F 3 "~" H 10740 5625 50  0001 C CNN
+	1    10740 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J21
+U 1 1 608A997F
+P 10740 5945
+F 0 "J21" H 10820 5937 50  0000 L CNN
+F 1 "SHV Trip4" H 10820 5846 50  0000 L CNN
+F 2 "" H 10740 5945 50  0001 C CNN
+F 3 "~" H 10740 5945 50  0001 C CNN
+	1    10740 5945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7560 5120 7560 4780
+Wire Wire Line
+	7560 4780 9355 4780
+Wire Wire Line
+	9355 4780 9355 4920
+Wire Wire Line
+	7345 4595 9480 4595
+Wire Wire Line
+	9480 4595 9480 5020
+Wire Wire Line
+	7455 5220 7455 4690
+Wire Wire Line
+	7455 4690 9220 4690
+Wire Wire Line
+	9220 4690 9220 5625
+Wire Wire Line
+	7225 4470 9095 4470
+Wire Wire Line
+	9095 4470 9095 5725
+Wire Wire Line
+	9095 5725 10540 5725
+Wire Wire Line
+	8180 5120 9460 5120
+Wire Wire Line
+	9460 5120 9460 5260
+Wire Wire Line
+	9460 5260 10540 5260
+Wire Wire Line
+	8180 5420 9475 5420
+Wire Wire Line
+	9475 5420 9475 5360
+Wire Wire Line
+	9475 5360 10540 5360
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J15
+U 1 1 608A99AC
+P 7880 5520
+F 0 "J15" H 7930 6137 50  0000 C CNN
+F 1 "HV TLH" H 7930 6046 50  0000 C CNN
+F 2 "" H 7880 5520 50  0001 C CNN
+F 3 "~" H 7880 5520 50  0001 C CNN
+	1    7880 5520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7680 5420 7345 5420
+Wire Wire Line
+	7345 5420 7345 4595
+Wire Wire Line
+	7680 5520 7225 5520
+Wire Wire Line
+	7225 5520 7225 4470
+Wire Wire Line
+	7455 5220 7680 5220
+Wire Wire Line
+	7560 5120 7680 5120
+Wire Wire Line
+	9355 4920 10540 4920
+Wire Wire Line
+	9480 5020 10540 5020
+Wire Wire Line
+	9220 5625 10540 5625
+Text Label 7595 5120 0    30   ~ 0
+Trip1
+Text Label 8185 5120 0    30   ~ 0
+Trip2
+Text Label 7595 5220 0    30   ~ 0
+Trip3
+Text Label 7515 5420 0    30   ~ 0
+Trip1rtn
+Text Label 7520 5520 0    30   ~ 0
+Trip3rtn
+Text Label 8185 5420 0    30   ~ 0
+Trip2rtn
+Text Label 7535 5920 0    30   ~ 0
+Quad1
+Text Label 8200 5920 0    30   ~ 0
+Quad2
+Text Label 7475 5620 0    30   ~ 0
+Quad1rtn
+Text Label 8180 5620 0    30   ~ 0
+Quad2rtn
+Text Label 10415 4920 0    30   ~ 0
+Trip1
+Text Label 10415 5260 0    30   ~ 0
+Trip2
+Text Label 10415 5625 0    30   ~ 0
+Trip3
+Text Label 10380 5945 0    30   ~ 0
+Trip4
+Text Label 10355 6045 0    30   ~ 0
+Trip4rtn
+Text Label 10375 5725 0    30   ~ 0
+Trip3rtn
+Text Label 10380 5360 0    30   ~ 0
+Trip2rtn
+Text Label 10375 5020 0    30   ~ 0
+Trip1rtn
+Text Label 8315 4305 0    30   ~ 0
+LVrtn
+Text Label 8310 3905 0    30   ~ 0
+LV
+Text Label 10145 4050 0    30   ~ 0
+LV
+Text Label 10110 4150 0    30   ~ 0
+LVrtn
+Text Notes 1915 360  0    300  ~ 0
+2x
+Text Notes 8670 360  0    300  ~ 0
+L0
+Text Notes 14185 460  0    300  ~ 0
+2xL1\n
+$Comp
+L Connector_Generic:Conn_01x05 J23
+U 1 1 60B50459
+P 13745 4575
+F 0 "J23" H 14065 4785 50  0000 C CNN
+F 1 "UMPS-Quads" H 14060 4695 50  0000 C CNN
+F 2 "" H 13745 4575 50  0001 C CNN
+F 3 "~" H 13745 4575 50  0001 C CNN
+	1    13745 4575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J22
+U 1 1 60B5045F
+P 13755 2535
+F 0 "J22" H 13805 3652 50  0000 C CNN
+F 1 "DCS TLH" H 13805 3561 50  0000 C CNN
+F 2 "" H 13755 2535 50  0001 C CNN
+F 3 "~" H 13755 2535 50  0001 C CNN
+	1    13755 2535
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B50465
+P 13555 1635
+F 0 "#PWR?" H 13555 1385 50  0001 C CNN
+F 1 "GND" V 13560 1462 50  0000 C CNN
+F 2 "" H 13555 1635 50  0001 C CNN
+F 3 "" H 13555 1635 50  0001 C CNN
+	1    13555 1635
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B5046B
+P 14055 1635
+F 0 "#PWR?" H 14055 1385 50  0001 C CNN
+F 1 "GND" V 14060 1462 50  0000 C CNN
+F 2 "" H 14055 1635 50  0001 C CNN
+F 3 "" H 14055 1635 50  0001 C CNN
+	1    14055 1635
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B50471
+P 14065 3639
+F 0 "#PWR?" H 14065 3389 50  0001 C CNN
+F 1 "GND" H 14070 3466 50  0000 C CNN
+F 2 "" H 14065 3639 50  0001 C CNN
+F 3 "" H 14065 3639 50  0001 C CNN
+	1    14065 3639
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B50477
+P 13530 3633
+F 0 "#PWR?" H 13530 3383 50  0001 C CNN
+F 1 "GND" H 13535 3460 50  0000 C CNN
+F 2 "" H 13530 3633 50  0001 C CNN
+F 3 "" H 13530 3633 50  0001 C CNN
+	1    13530 3633
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13555 3630 13530 3630
+Wire Wire Line
+	13555 3135 13555 3235
+Connection ~ 13555 3235
+Wire Wire Line
+	13555 3235 13555 3335
+Connection ~ 13555 3335
+Wire Wire Line
+	13555 3335 13555 3435
+Connection ~ 13555 3435
+Wire Wire Line
+	13555 3435 13555 3535
+Connection ~ 13555 3535
+Wire Wire Line
+	13555 3535 13555 3630
+Wire Wire Line
+	13530 3630 13530 3633
+Connection ~ 13530 3633
+Wire Wire Line
+	13530 3633 13530 3635
+Wire Wire Line
+	14055 3135 14055 3235
+Connection ~ 14055 3235
+Wire Wire Line
+	14055 3235 14055 3335
+Connection ~ 14055 3335
+Wire Wire Line
+	14055 3335 14055 3435
+Connection ~ 14055 3435
+Wire Wire Line
+	14055 3435 14055 3535
+Connection ~ 14055 3535
+Wire Wire Line
+	14055 3535 14055 3635
+Wire Wire Line
+	14065 3635 14065 3639
+Wire Wire Line
+	14055 3635 14065 3635
+Connection ~ 14065 3639
+Wire Wire Line
+	14065 3639 14065 3640
+Wire Wire Line
+	14800 1490 14800 1325
+Wire Wire Line
+	14800 1325 13210 1325
+Wire Wire Line
+	13210 1325 13210 1835
+Wire Wire Line
+	13210 1835 13555 1835
+Connection ~ 13555 1835
+Wire Wire Line
+	13555 1835 13560 1835
+Wire Wire Line
+	13560 1735 13555 1735
+Connection ~ 13555 1735
+Wire Wire Line
+	13555 1735 13455 1735
+Wire Wire Line
+	14050 1735 14055 1735
+Wire Wire Line
+	13560 1935 13555 1935
+Connection ~ 13555 1935
+Wire Wire Line
+	13555 1935 13085 1935
+Text Label 13455 1735 0    30   ~ 0
+Vc1+
+Text Label 14070 1735 0    30   ~ 0
+Vc1-
+Text Label 13420 1935 0    30   ~ 0
+Vc2+
+Text Label 14085 1935 0    30   ~ 0
+Vc2-
+$Comp
+L power:GND #PWR?
+U 1 1 60B504BF
+P 13555 2035
+F 0 "#PWR?" H 13555 1785 50  0001 C CNN
+F 1 "GND" V 13560 1862 50  0000 C CNN
+F 2 "" H 13555 2035 50  0001 C CNN
+F 3 "" H 13555 2035 50  0001 C CNN
+	1    13555 2035
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B504C5
+P 14055 2035
+F 0 "#PWR?" H 14055 1785 50  0001 C CNN
+F 1 "GND" V 14060 1862 50  0000 C CNN
+F 2 "" H 14055 2035 50  0001 C CNN
+F 3 "" H 14055 2035 50  0001 C CNN
+	1    14055 2035
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B504D7
+P 13555 2235
+F 0 "#PWR?" H 13555 1985 50  0001 C CNN
+F 1 "GND" V 13560 2062 50  0000 C CNN
+F 2 "" H 13555 2235 50  0001 C CNN
+F 3 "" H 13555 2235 50  0001 C CNN
+	1    13555 2235
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B504DD
+P 14055 2235
+F 0 "#PWR?" H 14055 1985 50  0001 C CNN
+F 1 "GND" V 14060 2062 50  0000 C CNN
+F 2 "" H 14055 2235 50  0001 C CNN
+F 3 "" H 14055 2235 50  0001 C CNN
+	1    14055 2235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13560 2335 13555 2335
+Wire Wire Line
+	12855 2335 12855 1120
+Wire Wire Line
+	12855 1120 15095 1120
+Connection ~ 13555 2335
+Wire Wire Line
+	13555 2335 12855 2335
+Wire Wire Line
+	14050 2335 14055 2335
+Connection ~ 14055 2335
+Wire Wire Line
+	14055 2335 14460 2335
+Text Label 13435 2135 0    30   ~ 0
+Cp1+
+Text Label 13420 2335 0    30   ~ 0
+Cp2+
+Text Label 14095 2335 0    30   ~ 0
+Cp2-
+Text Label 14095 2135 0    30   ~ 0
+Cp1-
+Wire Wire Line
+	14050 2435 14055 2435
+Wire Wire Line
+	14050 2535 14055 2535
+Wire Wire Line
+	13560 2435 13555 2435
+Connection ~ 13555 2435
+Wire Wire Line
+	13555 2435 12755 2435
+Wire Wire Line
+	13560 2535 13555 2535
+Wire Wire Line
+	12650 2535 12650 915 
+Connection ~ 13555 2535
+Wire Wire Line
+	13555 2535 12650 2535
+Text Label 13420 2435 0    30   ~ 0
+LP2
+Text Label 13320 2535 0    30   ~ 0
+LP2rtn(G)
+Text Label 14100 2435 0    30   ~ 0
+LP1
+Text Label 14100 2535 0    30   ~ 0
+LP1rtn(G)
+Text Label 13385 1835 0    30   ~ 0
+Vc2shld
+Text Label 14065 1835 0    30   ~ 0
+Vc1shld
+Wire Wire Line
+	12650 915  15280 915 
+Wire Wire Line
+	13560 2635 13555 2635
+Wire Wire Line
+	14050 2635 14055 2635
+Wire Wire Line
+	13560 2835 13555 2835
+Wire Wire Line
+	12490 2835 12490 755 
+Wire Wire Line
+	12490 755  15460 755 
+Connection ~ 13555 2835
+Wire Wire Line
+	13555 2835 12490 2835
+Wire Wire Line
+	14050 2835 14055 2835
+Connection ~ 14055 2835
+Wire Wire Line
+	14055 2835 14780 2835
+Wire Wire Line
+	13560 3035 13555 3035
+Wire Wire Line
+	14050 3035 14055 3035
+$Comp
+L power:GND #PWR?
+U 1 1 60B5054A
+P 13555 2735
+F 0 "#PWR?" H 13555 2485 50  0001 C CNN
+F 1 "GND" V 13560 2562 50  0000 C CNN
+F 2 "" H 13555 2735 50  0001 C CNN
+F 3 "" H 13555 2735 50  0001 C CNN
+	1    13555 2735
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B50550
+P 13555 2935
+F 0 "#PWR?" H 13555 2685 50  0001 C CNN
+F 1 "GND" V 13560 2762 50  0000 C CNN
+F 2 "" H 13555 2935 50  0001 C CNN
+F 3 "" H 13555 2935 50  0001 C CNN
+	1    13555 2935
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B50556
+P 14055 2735
+F 0 "#PWR?" H 14055 2485 50  0001 C CNN
+F 1 "GND" V 14060 2562 50  0000 C CNN
+F 2 "" H 14055 2735 50  0001 C CNN
+F 3 "" H 14055 2735 50  0001 C CNN
+	1    14055 2735
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B5055C
+P 14055 2935
+F 0 "#PWR?" H 14055 2685 50  0001 C CNN
+F 1 "GND" V 14060 2762 50  0000 C CNN
+F 2 "" H 14055 2935 50  0001 C CNN
+F 3 "" H 14055 2935 50  0001 C CNN
+	1    14055 2935
+	0    -1   -1   0   
+$EndComp
+Text Label 13425 2635 0    30   ~ 0
+Int1+
+Text Label 13415 2835 0    30   ~ 0
+Int2+
+Text Label 13405 3035 0    30   ~ 0
+Int3+
+Text Label 14120 2635 0    30   ~ 0
+Int1-
+Text Label 14110 2835 0    30   ~ 0
+Int2-
+Text Label 14120 3035 0    30   ~ 0
+Int3-
+Wire Wire Line
+	14050 1935 14055 1935
+Connection ~ 14055 1935
+Wire Wire Line
+	13085 1935 13085 1270
+Wire Wire Line
+	13085 1270 14910 1270
+Text Label 16120 1490 0    30   ~ 0
+Vc2shld
+Text Label 16160 1590 0    30   ~ 0
+Vc2+
+Text Label 16165 1690 0    30   ~ 0
+Vc2-
+Text Label 16170 1790 0    30   ~ 0
+Cp2+
+Text Label 16170 1890 0    30   ~ 0
+Cp2-
+Text Label 16155 1990 0    30   ~ 0
+LP2
+Text Label 16075 2090 0    30   ~ 0
+LP2rtn(G)
+Text Label 16140 2190 0    30   ~ 0
+Int2+
+Text Label 16135 2290 0    30   ~ 0
+Int2-
+$Comp
+L Connector_Generic:Conn_01x02 J26
+U 1 1 60B505AF
+P 16480 4520
+F 0 "J26" H 16560 4512 50  0000 L CNN
+F 1 "Banana Plugs" H 16560 4421 50  0000 L CNN
+F 2 "" H 16480 4520 50  0001 C CNN
+F 3 "~" H 16480 4520 50  0001 C CNN
+	1    16480 4520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14195 4475 14195 4375
+Wire Wire Line
+	15880 4375 15880 4520
+Wire Wire Line
+	15880 4520 16280 4520
+Connection ~ 16280 4520
+Wire Wire Line
+	16280 4520 16285 4520
+Connection ~ 14195 4375
+Wire Wire Line
+	14195 4375 15880 4375
+Wire Wire Line
+	15880 4775 15880 4620
+Wire Wire Line
+	15880 4620 16280 4620
+Connection ~ 16280 4620
+Wire Wire Line
+	16280 4620 16285 4620
+Wire Wire Line
+	14200 4675 14200 4775
+Connection ~ 14200 4775
+Wire Wire Line
+	14200 4775 15880 4775
+$Comp
+L power:GND #PWR?
+U 1 1 60B505C3
+P 13945 4575
+F 0 "#PWR?" H 13945 4325 50  0001 C CNN
+F 1 "GND" H 13950 4402 50  0000 C CNN
+F 2 "" H 13945 4575 50  0001 C CNN
+F 3 "" H 13945 4575 50  0001 C CNN
+	1    13945 4575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13944 4375 13945 4375
+Wire Wire Line
+	13944 4475 13945 4475
+Wire Wire Line
+	13944 4675 13945 4675
+Wire Wire Line
+	13944 4775 13945 4775
+Connection ~ 13945 4375
+Wire Wire Line
+	13945 4375 14195 4375
+Connection ~ 13945 4475
+Wire Wire Line
+	13945 4475 14195 4475
+Connection ~ 13945 4675
+Wire Wire Line
+	13945 4675 14200 4675
+Connection ~ 13945 4775
+Wire Wire Line
+	13945 4775 14200 4775
+Wire Wire Line
+	12755 1025 15195 1025
+Wire Wire Line
+	12755 1025 12755 2435
+$Comp
+L Connector_Generic:Conn_01x02 J27
+U 1 1 60B505EA
+P 16575 5885
+F 0 "J27" H 16655 5877 50  0000 L CNN
+F 1 "SHV Quad1" H 16655 5786 50  0000 L CNN
+F 2 "" H 16575 5885 50  0001 C CNN
+F 3 "~" H 16575 5885 50  0001 C CNN
+	1    16575 5885
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 60B505F0
+P 16575 6215
+F 0 "J28" H 16655 6207 50  0000 L CNN
+F 1 "SHV Quad2" H 16655 6116 50  0000 L CNN
+F 2 "" H 16575 6215 50  0001 C CNN
+F 3 "~" H 16575 6215 50  0001 C CNN
+	1    16575 6215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13455 6565 13130 6565
+Wire Wire Line
+	13455 6265 13015 6265
+Wire Wire Line
+	13130 6565 13130 7105
+Wire Wire Line
+	13130 7105 14915 7105
+Wire Wire Line
+	13015 6265 13015 7245
+Wire Wire Line
+	13015 7245 15010 7245
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J24
+U 1 1 60B50617
+P 13655 6165
+F 0 "J24" H 13705 6782 50  0000 C CNN
+F 1 "HV TLH" H 13705 6691 50  0000 C CNN
+F 2 "" H 13655 6165 50  0001 C CNN
+F 3 "~" H 13655 6165 50  0001 C CNN
+	1    13655 6165
+	1    0    0    -1  
+$EndComp
+Text Label 13370 5765 0    30   ~ 0
+Trip1
+Text Label 13960 5765 0    30   ~ 0
+Trip2
+Text Label 13370 5865 0    30   ~ 0
+Trip3
+Text Label 13290 6065 0    30   ~ 0
+Trip1rtn
+Text Label 13295 6165 0    30   ~ 0
+Trip3rtn
+Text Label 13970 6165 0    30   ~ 0
+Trip4rtn
+Text Label 16215 5885 0    30   ~ 0
+Quad1
+Text Label 16220 6215 0    30   ~ 0
+Quad2
+Text Label 16180 6315 0    30   ~ 0
+Quad2rtn
+Text Label 16190 5985 0    30   ~ 0
+Quad1rtn
+Text Label 14240 4375 0    30   ~ 0
+LV
+Text Label 14235 4775 0    30   ~ 0
+LVrtn
+Text Label 16165 4520 0    30   ~ 0
+LV
+Text Label 16150 4620 0    30   ~ 0
+LVrtn
+Wire Wire Line
+	16312 2390 16315 2390
+$Comp
+L Connector_Generic:Conn_01x25 J25
+U 1 1 60B5044D
+P 16512 2690
+F 0 "J25" H 16592 2732 50  0000 L CNN
+F 1 "DB25" H 16592 2641 50  0000 L CNN
+F 2 "" H 16512 2690 50  0001 C CNN
+F 3 "~" H 16512 2690 50  0001 C CNN
+	1    16512 2690
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1680 3250 1085
+Wire Wire Line
+	3250 1085 1180 1085
+Wire Wire Line
+	1180 1085 1180 2025
+Wire Wire Line
+	2290 2025 2910 2025
+Wire Wire Line
+	2910 2025 2910 1780
+Wire Wire Line
+	4547 1780 4550 1780
+Wire Wire Line
+	2910 1780 4547 1780
+Connection ~ 4547 1780
+Wire Wire Line
+	4547 1680 3250 1680
+Wire Wire Line
+	4550 1680 4547 1680
+Connection ~ 4547 1680
+Wire Wire Line
+	2920 1580 4547 1580
+Wire Wire Line
+	4547 1580 4550 1580
+Connection ~ 4547 1580
+Wire Wire Line
+	2925 1480 4547 1480
+Wire Wire Line
+	4547 1480 4550 1480
+Connection ~ 4547 1480
+Wire Wire Line
+	4550 1380 4547 1380
+Wire Wire Line
+	4547 1380 3035 1380
+Connection ~ 4547 1380
+$Comp
+L Connector_Generic:Conn_01x25 J5
+U 1 1 600989EA
+P 4747 2580
+F 0 "J5" H 4827 2622 50  0000 L CNN
+F 1 "DB25" H 4827 2531 50  0000 L CNN
+F 2 "" H 4747 2580 50  0001 C CNN
+F 3 "~" H 4747 2580 50  0001 C CNN
+	1    4747 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2290 2325 2980 2325
+Wire Wire Line
+	2980 2325 2980 1880
+Wire Wire Line
+	2980 1880 4547 1880
+Connection ~ 4547 1880
+Wire Wire Line
+	4547 1880 4550 1880
+Wire Wire Line
+	2290 2425 3050 2425
+Wire Wire Line
+	3050 2425 3050 1980
+Wire Wire Line
+	3050 1980 4547 1980
+Connection ~ 4547 1980
+Wire Wire Line
+	4547 1980 4550 1980
+Wire Wire Line
+	3430 915  3430 2080
+Wire Wire Line
+	3430 2080 4547 2080
+Connection ~ 4547 2080
+Wire Wire Line
+	4547 2080 4550 2080
+Wire Wire Line
+	3515 805  3515 2180
+Wire Wire Line
+	3515 2180 4547 2180
+Connection ~ 4547 2180
+Wire Wire Line
+	4547 2180 4550 2180
+Wire Wire Line
+	3135 2525 3135 2380
+Wire Wire Line
+	3135 2380 4547 2380
+Wire Wire Line
+	2285 2525 2290 2525
+Connection ~ 2290 2525
+Wire Wire Line
+	2290 2525 3135 2525
+Connection ~ 4547 2380
+Wire Wire Line
+	4547 2380 4550 2380
+Wire Wire Line
+	3595 715  3595 2280
+Wire Wire Line
+	3595 2280 4547 2280
+Connection ~ 4547 2280
+Wire Wire Line
+	4547 2280 4550 2280
+Wire Wire Line
+	2290 2725 3215 2725
+Wire Wire Line
+	3215 2725 3215 2580
+Wire Wire Line
+	3215 2580 4547 2580
+Connection ~ 2290 2725
+Connection ~ 4547 2580
+Wire Wire Line
+	4547 2580 4550 2580
+Wire Wire Line
+	3695 645  3695 2480
+Wire Wire Line
+	3695 2480 4547 2480
+Connection ~ 4547 2480
+Wire Wire Line
+	4547 2480 4550 2480
+Text Label 8420 2895 0    30   ~ 0
+Int3-
+Text Label 7705 2895 0    30   ~ 0
+Int3+
+Text Label 7715 2695 0    30   ~ 0
+Int2+
+Wire Wire Line
+	10612 1550 10615 1550
+Wire Wire Line
+	8985 1550 10612 1550
+Connection ~ 10612 1550
+Wire Wire Line
+	10612 1450 10615 1450
+Wire Wire Line
+	8990 1450 10612 1450
+Connection ~ 10612 1450
+Wire Wire Line
+	10612 2850 10615 2850
+Wire Wire Line
+	10612 2750 10615 2750
+Wire Wire Line
+	10612 2450 10615 2450
+Wire Wire Line
+	10612 2350 10615 2350
+Wire Wire Line
+	10612 1350 9100 1350
+Wire Wire Line
+	10615 1350 10612 1350
+Connection ~ 10612 1350
+$Comp
+L Connector_Generic:Conn_01x25 J16
+U 1 1 608A97E2
+P 10812 2550
+F 0 "J16" H 10892 2592 50  0000 L CNN
+F 1 "DB25" H 10892 2501 50  0000 L CNN
+F 2 "" H 10812 2550 50  0001 C CNN
+F 3 "~" H 10812 2550 50  0001 C CNN
+	1    10812 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9230 1995 9230 1750
+Wire Wire Line
+	9230 1750 10612 1750
+Connection ~ 10612 1750
+Wire Wire Line
+	10612 1750 10615 1750
+Wire Wire Line
+	9315 1050 9315 1650
+Wire Wire Line
+	9315 1650 10612 1650
+Connection ~ 10612 1650
+Wire Wire Line
+	10612 1650 10615 1650
+Wire Wire Line
+	9305 2295 9305 1850
+Wire Wire Line
+	9305 1850 10612 1850
+Wire Wire Line
+	8355 2295 9305 2295
+Connection ~ 10612 1850
+Wire Wire Line
+	10612 1850 10615 1850
+Wire Wire Line
+	9395 2395 9395 1950
+Wire Wire Line
+	8355 2395 9395 2395
+Wire Wire Line
+	9395 1950 10612 1950
+Connection ~ 10612 1950
+Wire Wire Line
+	10612 1950 10615 1950
+Wire Wire Line
+	6890 2495 6890 940 
+Wire Wire Line
+	6890 940  9505 940 
+Wire Wire Line
+	9505 940  9505 2050
+Wire Wire Line
+	9505 2050 10612 2050
+Connection ~ 10612 2050
+Wire Wire Line
+	10612 2050 10615 2050
+Wire Wire Line
+	9505 2495 9505 2150
+Wire Wire Line
+	9505 2150 10612 2150
+Wire Wire Line
+	8355 2495 9505 2495
+Connection ~ 10612 2150
+Wire Wire Line
+	10612 2150 10615 2150
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J1
+U 1 1 60AE8FA2
+P -1400 1815
+F 0 "J1" H -1350 2432 50  0000 C CNN
+F 1 "HV TLH" H -1350 2341 50  0000 C CNN
+F 2 "" H -1400 1815 50  0001 C CNN
+F 3 "~" H -1400 1815 50  0001 C CNN
+	1    -1400 1815
+	1    0    0    -1  
+$EndComp
+Text Label -1685 1415 0    30   ~ 0
+Trip1
+Text Label -1095 1415 0    30   ~ 0
+Trip2
+Text Label -1715 1615 0    30   ~ 0
+Trip3
+Text Label -1760 1815 0    30   ~ 0
+Trip_rtn
+Text Label -1090 1815 0    30   ~ 0
+Trip_rtn
+Text Label -1760 2115 0    30   ~ 0
+Quad1
+Text Label -1055 2115 0    30   ~ 0
+Quad2
+Text Label -1100 1915 0    30   ~ 0
+Quad_rtn
+Text Label -1770 2315 0    30   ~ 0
+Quad3
+Text Label -1050 2315 0    30   ~ 0
+Quad4
+Text Label -1065 1615 0    30   ~ 0
+Trip4
+Wire Wire Line
+	-1600 1415 -1775 1415
+Wire Wire Line
+	-1600 1615 -1780 1615
+Wire Wire Line
+	-1100 1415 -860 1415
+Wire Wire Line
+	-1100 1615 -865 1615
+Wire Wire Line
+	-1100 2115 -840 2115
+Wire Wire Line
+	-1100 2315 -835 2315
+Text Label -1800 1915 0    30   ~ 0
+Quad_rtn
+Wire Wire Line
+	-1600 1815 -1800 1815
+Wire Wire Line
+	-1600 1915 -1820 1915
+Wire Wire Line
+	-1100 1815 -855 1815
+Wire Wire Line
+	-1100 1915 -855 1915
+Wire Wire Line
+	-1600 2115 -1825 2115
+Wire Wire Line
+	-1600 2315 -1840 2315
+Text Notes -2745 980  0    100  ~ 0
+Proposed new HV connector pinout
+Wire Notes Line
+	-2285 2650 -350 2650
+Wire Notes Line
+	-350 2650 -350 1075
+Wire Notes Line
+	-350 1075 -2285 1075
+Wire Notes Line
+	-2285 1075 -2285 2650
+Wire Wire Line
+	14910 1270 14910 1590
+Wire Wire Line
+	14800 1490 16312 1490
+Wire Wire Line
+	14910 1590 16312 1590
+Connection ~ 16312 1490
+Wire Wire Line
+	16312 1490 16315 1490
+Connection ~ 16312 1590
+Wire Wire Line
+	16312 1590 16315 1590
+Connection ~ 16312 1690
+Wire Wire Line
+	16312 1690 16315 1690
+Wire Wire Line
+	16312 2490 16315 2490
+Wire Wire Line
+	16312 2590 16315 2590
+Wire Wire Line
+	16312 2690 16315 2690
+Wire Wire Line
+	16312 2790 16315 2790
+Wire Wire Line
+	16312 2890 16315 2890
+Wire Wire Line
+	16312 2990 16315 2990
+Wire Wire Line
+	16312 3090 16315 3090
+Wire Wire Line
+	16312 3190 16315 3190
+Wire Wire Line
+	16312 3290 16315 3290
+Wire Wire Line
+	16312 3390 16315 3390
+Wire Wire Line
+	14055 1935 14390 1935
+Wire Wire Line
+	15095 1120 15095 1790
+Wire Wire Line
+	15095 1790 16312 1790
+Connection ~ 16312 1790
+Wire Wire Line
+	16312 1790 16315 1790
+Connection ~ 16312 1890
+Wire Wire Line
+	16312 1890 16315 1890
+Wire Wire Line
+	14390 1935 14390 1690
+Wire Wire Line
+	14390 1690 16312 1690
+Wire Wire Line
+	14460 2335 14460 1890
+Wire Wire Line
+	14460 1890 16312 1890
+Wire Wire Line
+	15195 1025 15195 1990
+Wire Wire Line
+	15195 1990 16312 1990
+Connection ~ 16312 1990
+Wire Wire Line
+	16312 1990 16315 1990
+Wire Wire Line
+	15280 915  15280 2090
+Wire Wire Line
+	15280 2090 16312 2090
+Connection ~ 16312 2090
+Wire Wire Line
+	16312 2090 16315 2090
+Wire Wire Line
+	14780 2835 14780 2290
+Wire Wire Line
+	14780 2290 16312 2290
+Connection ~ 16312 2290
+Wire Wire Line
+	16312 2290 16315 2290
+Wire Wire Line
+	15460 755  15460 2190
+Wire Wire Line
+	15460 2190 16312 2190
+Connection ~ 16312 2190
+Wire Wire Line
+	16312 2190 16315 2190
+Wire Wire Line
+	14055 1735 14185 1735
+Connection ~ 14055 1735
+Wire Wire Line
+	14055 1835 14280 1835
+Wire Wire Line
+	14055 2135 14260 2135
+Wire Wire Line
+	14055 2435 14205 2435
+Connection ~ 14055 2435
+Wire Wire Line
+	14055 2535 14340 2535
+Connection ~ 14055 2535
+Wire Wire Line
+	14055 2635 14280 2635
+Connection ~ 14055 2635
+Wire Wire Line
+	13385 2635 13555 2635
+Connection ~ 13555 2635
+Wire Wire Line
+	13360 3035 13555 3035
+Connection ~ 13555 3035
+Wire Wire Line
+	14055 3035 14275 3035
+Connection ~ 14055 3035
+Wire Wire Line
+	13555 2135 13400 2135
+Wire Wire Line
+	14915 5885 16375 5885
+Wire Wire Line
+	14915 5885 14915 7105
+Wire Wire Line
+	15010 5985 16375 5985
+Wire Wire Line
+	15010 5985 15010 7245
+Wire Wire Line
+	13955 6565 14460 6565
+Wire Wire Line
+	14460 6565 14460 6215
+Wire Wire Line
+	14460 6215 16375 6215
+Wire Wire Line
+	13955 6265 14365 6265
+Wire Wire Line
+	14365 6265 14365 6315
+Wire Wire Line
+	14365 6315 16375 6315
+Text Label 8190 5520 0    30   ~ 0
+Trip4rtn
+Text Label 8190 5220 0    30   ~ 0
+Trip4
+Wire Wire Line
+	8180 5220 8980 5220
+Wire Wire Line
+	8980 5220 8980 5945
+Wire Wire Line
+	8980 5945 10540 5945
+Wire Wire Line
+	8180 5520 8870 5520
+Wire Wire Line
+	8870 5520 8870 6045
+Wire Wire Line
+	8870 6045 10540 6045
+Text Label 7530 6015 0    30   ~ 0
+Quad3
+Text Label 7470 5715 0    30   ~ 0
+Quad3rtn
+Text Label 8215 6020 0    30   ~ 0
+Quad4
+Text Label 8185 5720 0    30   ~ 0
+Quad4rtn
+Text Label 1455 7020 0    30   ~ 0
+Quad1
+Text Label 1395 6720 0    30   ~ 0
+Quad1rtn
+Text Label 1450 7115 0    30   ~ 0
+Quad3
+Text Label 1390 6815 0    30   ~ 0
+Quad3rtn
+Text Label 2155 7020 0    30   ~ 0
+Quad2
+Text Label 2135 6720 0    30   ~ 0
+Quad2rtn
+Text Label 2170 7120 0    30   ~ 0
+Quad4
+Text Label 2140 6820 0    30   ~ 0
+Quad4rtn
+Text Label 13990 6565 0    30   ~ 0
+Quad2
+Text Label 13970 6265 0    30   ~ 0
+Quad2rtn
+Text Label 14005 6665 0    30   ~ 0
+Quad4
+Text Label 13975 6365 0    30   ~ 0
+Quad4rtn
+Text Label 13300 6565 0    30   ~ 0
+Quad1
+Text Label 13240 6265 0    30   ~ 0
+Quad1rtn
+Text Label 13295 6660 0    30   ~ 0
+Quad3
+Text Label 13235 6360 0    30   ~ 0
+Quad3rtn
+Text Label 13970 5865 0    30   ~ 0
+Trip4
+Text Label 13960 6065 0    30   ~ 0
+Trip2rtn
+Text Label 2135 6220 0    30   ~ 0
+Trip2
+Text Label 2145 6620 0    30   ~ 0
+Trip4rtn
+Text Label 2145 6320 0    30   ~ 0
+Trip4
+Text Label 2135 6520 0    30   ~ 0
+Trip2rtn
+$EndSCHEMATC
