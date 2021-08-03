@@ -1,0 +1,91 @@
+EESchema Schematic File Version 4
+LIBS:Type 1 Termination Board v3-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 5FB33616
+P 2220 2760
+F 0 "J4" H 2300 2802 50  0000 L CNN
+F 1 "Conn_01x05" H 2300 2711 50  0000 L CNN
+F 2 "SCIPP_Connectors:UMPS 5 Pin" H 2220 2760 50  0001 C CNN
+F 3 "~" H 2220 2760 50  0001 C CNN
+	1    2220 2760
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5FB349EC
+P 1800 2400
+F 0 "J2" V 1738 2312 50  0000 R CNN
+F 1 "Conn_01x01_Female" V 1647 2312 50  0000 R CNN
+F 2 "SCIPP_Connectors:14AWG_THT" H 1800 2400 50  0001 C CNN
+F 3 "~" H 1800 2400 50  0001 C CNN
+	1    1800 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5FB350B9
+P 1810 3160
+F 0 "J3" V 1656 3208 50  0000 L CNN
+F 1 "Conn_01x01_Female" V 1747 3208 50  0000 L CNN
+F 2 "SCIPP_Connectors:14AWG_THT" H 1810 3160 50  0001 C CNN
+F 3 "~" H 1810 3160 50  0001 C CNN
+	1    1810 3160
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2020 2560 1880 2560
+Wire Wire Line
+	1880 2560 1880 2600
+Wire Wire Line
+	1880 2600 1800 2600
+Wire Wire Line
+	2020 2660 1800 2660
+Wire Wire Line
+	1800 2660 1800 2600
+Connection ~ 1800 2600
+Wire Wire Line
+	2020 2860 1810 2860
+Wire Wire Line
+	1810 2860 1810 2960
+Wire Wire Line
+	2020 2960 1810 2960
+Connection ~ 1810 2960
+$Comp
+L power:GND #PWR01
+U 1 1 5FB371ED
+P 1630 2770
+F 0 "#PWR01" H 1630 2520 50  0001 C CNN
+F 1 "GND" H 1635 2597 50  0000 C CNN
+F 2 "" H 1630 2770 50  0001 C CNN
+F 3 "" H 1630 2770 50  0001 C CNN
+F 4 "I" H 1630 2770 50  0001 C CNN "Spice_Primitive"
+F 5 "Y" H 1630 2770 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1630 2770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1630 2770 2020 2770
+Wire Wire Line
+	2020 2770 2020 2760
+Text HLabel 1660 2770 1    50   Input ~ 0
+GND
+Text HLabel 2030 2560 1    50   Input ~ 0
+LV
+Text HLabel 1990 2960 3    50   Input ~ 0
+return
+$EndSCHEMATC

@@ -1,0 +1,8 @@
+(module PEEK_Screw_2_small (layer F.Cu) (tedit 5F763682)
+  (fp_text reference REF** (at 40.15 -15.95) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PEEK_Screw_2_small (at 40.15 -16.95) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
